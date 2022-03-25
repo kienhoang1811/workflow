@@ -26,6 +26,6 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: myartifact
-        path: .github/workflows/dotnet.yml
+        path: https://github.com/kienhoang1811/workflow/actions/workflows/dotnet.yml
         run: dotnet test --no-build --verbosity normal CMP186-WorkshopGitHubAction.sln
  
